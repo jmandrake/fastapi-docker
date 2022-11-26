@@ -32,7 +32,8 @@ Upload the docker tag (image) to hub.docker.com
 Go to: https://labs.play-with-docker.com/
 
 Import the image and launch it: 
-> docker pull username/docker-image-name
-> docker run username/docker-image-name
+docker pull username/docker-image-name
+docker run username/docker-image-name
+
 Or run it using port mapping:
-> docker run -p 8000:8000 username/docker-image-name
+docker run -p 8000:8000 username/docker-image-name
