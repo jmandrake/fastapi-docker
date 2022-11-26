@@ -15,9 +15,12 @@
 # Docker Hub: docker login
 # Upload image to Docker Hub: docker push username/image-name
 
+### Upload to Github and use action to autobuild
+
 from typing import Union
 from fastapi import FastAPI
 import uvicorn
+
 
 app = FastAPI()
 
@@ -30,6 +33,12 @@ def read_root():
 @app.get("/items/{item_id}")
 def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
+
+
+@app.get("/items/{test}")
+def read_item(test: int, q: Union[str, None] = None):
+    return {"test": test, "q": q}
+
 
 if __name__=="__main__":
     uvicorn.run(app, port=8000, host="0.0.0.0")
