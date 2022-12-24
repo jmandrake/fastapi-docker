@@ -1,4 +1,4 @@
-[![Docker Image CI](https://github.com/jmandrake/fastapi-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/jmandrake/fastapi-docker/actions/workflows/docker-image.yml)
+[![Docker Image CI](https://github.com/jmandrake/fastapi-docker-template/actions/workflows/docker-image.yml/badge.svg)](https://github.com/jmandrake/fastapi-docker-template/actions/workflows/docker-image.yml)
 
 
 # fastapi-docker
