@@ -1,3 +1,6 @@
+[![Docker Image CI](https://github.com/jmandrake/fastapi-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/jmandrake/fastapi-docker/actions/workflows/docker-image.yml)
+
+
 # fastapi-docker
 ## Demo app using fastapi and docker
 
